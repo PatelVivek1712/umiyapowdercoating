@@ -1,0 +1,60 @@
+/* CSS/ColorPicker.css */
+.color-picker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+.main-heading {
+  font-size: 36px;
+  color: #512da8;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.category-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.category-card {
+  color: black;
+  display: flex;
+  flex-direction: column;
+  width: 250px; /* Adjust the width as needed */
+  height: 300px; /* Adjust the height as needed */
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  text-align: center;
+  padding: 15px;
+  transition: all 0.2s ease-in-out;
+}
+
+.category-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.category-card img {
+  width: 100%; /* Resize image to fill the div horizontally */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 5px; /* Apply border radius to the image */
+}
+
+.category-card h2 {
+  margin-top: 0;
+  color: black; /* Change font color to black */
+}
+
+.category-card p {
+  color: #666;
+}
+
+.category-link {
+  text-decoration: none;
+  color: inherit;
+}

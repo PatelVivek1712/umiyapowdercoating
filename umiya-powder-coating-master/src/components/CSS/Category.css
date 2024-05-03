@@ -1,0 +1,58 @@
+/* CSS/Category.css */
+/* NavBar styles */
+.navbar {
+    background-color: #512da8; /* Navbar background color */
+    color: white; /* Text color */
+    padding: 10px 0; /* Adjust padding as needed */
+    text-align: center; /* Center align text */
+  }
+  
+  .navbar h1 {
+    margin: 0; /* Remove default margin */
+  }
+  
+.category-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px; /* Add padding to separate from the navbar */
+  max-width: 100%; /* Ensure the container doesn't exceed the viewport width */
+  overflow: auto; /* Add horizontal scroll if necessary */
+}
+
+  
+  .color-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px; /* Adjust as needed */
+    padding: 10px; /* Adjust as needed */
+    border-radius: 5px;
+    background-color: #f2f2f2; /* Light gray background */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: all 0.2s ease-in-out; /* Smooth hover effect */
+  }
+  
+  .color-item:hover {
+    transform: scale(1.02); /* Slight zoom on hover */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+  }
+  
+  .color-box {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+  }
+  
+  .color-name {
+    margin-top: 10px;
+    color: #333; /* Darker text color */
+    font-weight: bold; /* Bold font */
+  }
+  
+  .category-link {
+    text-decoration: none;
+    color: inherit;
+  }
+  

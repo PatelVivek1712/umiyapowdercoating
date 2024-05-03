@@ -1,0 +1,62 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 39px;
+    padding: 39px;
+    max-width: 100%;
+    color: black;
+  }
+  
+  .container h1,
+  .container h2 {
+    color: #8b5eec; /* Choose your desired color */
+  }
+  
+  .main-heading {
+    font-size: 36px;
+    color: #512da8;
+    text-align: center;
+  }
+  
+  .user-info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .user-info img {
+    max-width: 100px;
+    height: auto;
+  }
+  
+  .user-details h2 {
+    color: #8b5eec;
+  }
+  
+  .payment-details,
+  .order-details {
+    width: 100%;
+  }
+  
+  .payment-details h2,
+  .order-details h2 {
+    color: #8b5eec;
+    margin-top: 0;
+  }
+  
+  .payment-details p,
+  .order-details ul {
+    color: #666;
+    list-style: none;
+  }
+  
+  .payment-details ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .payment-details ul li {
+    margin-bottom: 10px;
+  }

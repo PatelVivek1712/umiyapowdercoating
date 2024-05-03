@@ -1,0 +1,79 @@
+.navbar-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f8f9fa; /* Light gray color */
+    padding: 10px 0;
+  }
+  
+  .navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #512da8; /* Purple color */
+  }
+  
+  .nav-item {
+    float: left;
+  }
+  
+  .nav-link {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .nav-link:hover,
+  .nav-link:focus {
+    background-color: #f0eeef; /* Light gray color */
+  }
+  
+  .nav-item.disabled .nav-link {
+    color: #6c757d; /* Gray color */
+    pointer-events: none;
+  }
+  
+  /* Hamburger menu */
+  .hamburger-menu {
+    display: none; /* Initially hide the hamburger menu */
+  }
+  
+  .hamburger-icon {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    cursor: pointer;
+  }
+
+  .hamburger-icon {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    cursor: pointer;
+    /* Add additional styles for the custom icon if needed */
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .navbar {
+      display: none; 
+    }
+  
+    .nav-item {
+      float: none;
+    }
+  
+    .hamburger-menu {
+      display: block; 
+    }
+  
+    .navbar.show {
+      display: block;
+    }
+  }
